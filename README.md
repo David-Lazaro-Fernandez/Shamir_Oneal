@@ -1,5 +1,9 @@
-# Shamir_Oneal
+# Shamir_Oneal 🏀
+
 Sistema de logueo para Shamir
+
+<img src="https://user-images.githubusercontent.com/57787993/205722607-55022ea5-44fb-4004-8cc0-3180602c3f60.png" />
+
 
 ## ¿Cómo colaborar?
 La forma principal en la cual puedes colaborar a este repositorio es realizando un Fork de este 🍴
