@@ -13,8 +13,7 @@ La forma principal en la cual puedes colaborar a este repositorio es realizando 
 - Uno de los colaboradores del repositorio se encargara de hacer un code review y ver si los cambios no dañan a la estructura del proyecto. 
 
 ## Vistas 👁
-Puedes encontrar todas las vistas en la siguiente liga de Figma 
-
+Puedes encontrar todas las vistas en la siguiente liga de [Figma](https://www.figma.com/file/GPEyXudaicMLDPdt1uz19E/Shamir-O'neal?node-id=1%3A2&t=CpuHUmEP6Wa5uCjW-1)
 ## Dependencias utilizadas en el proyecto
 - Node JS 
 - Angular CLI 
