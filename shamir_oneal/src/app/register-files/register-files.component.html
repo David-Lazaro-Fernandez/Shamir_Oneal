@@ -2,43 +2,40 @@
     <section class="left-bar">
       <h1>Registro de Expedientes</h1>
       <p>Ingresa los datos necesarios para completar el expediente.</p>
-      <form class="example-form">
+      <form class="example-form" style="margin-top: 20px;">
         <mat-form-field class="form-input">
           <input matInput placeholder="Tipo de caso" />
         </mat-form-field>
-  
         <mat-form-field class="form-input">
           <input matInput placeholder="Estado" />
         </mat-form-field>
         <mat-form-field class="form-input">
           <input matInput placeholder="Municipio juzgado" />
         </mat-form-field>
-  
         <mat-form-field class="form-input">
           <input matInput placeholder="Juzgado" />
         </mat-form-field>
         <mat-form-field class="form-input">
           <input matInput placeholder="Descripcion del caso" />
         </mat-form-field>
+        <p style="margin-top: 0px; margin-bottom: 5px;">Expediente del juzgado.</p>
         <mat-form-field>
           <ngx-mat-file-input>
-            Expediente del juzgado
           </ngx-mat-file-input>
        </mat-form-field>
+       <p style="margin-top: 0px; margin-bottom: 5px;">Acta del cliente.</p>
        <mat-form-field>
         <ngx-mat-file-input>
-          Acta del cliente
         </ngx-mat-file-input>
      </mat-form-field>
+     <p style="margin-top: 0px; margin-bottom: 5px;">Identificacion del cliente.</p>
      <mat-form-field>
-      <ngx-mat-file-input>
-        Identificacion del cliente
+      <ngx-mat-file-input id="test">
       </ngx-mat-file-input>
    </mat-form-field>
         
       </form>
       
-      <button class="form-button" routerLink="/login">Guardar</button>
+      <button class="form-button" routerLink="/login" style="margin-top: 20px;">Guardar</button>
     </section>
   </div>
-  
