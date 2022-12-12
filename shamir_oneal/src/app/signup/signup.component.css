@@ -27,14 +27,15 @@ p{
     flex-direction: column;
     align-items: center;
     margin-left: 100px;
+    position: relative;
     max-width: 50%;
 }
 .right-bar img{
    border-radius: 40px;
    float: right; 
+   width: 100%;
    object-fit: cover;
    height: 800px;
-   width: 100%;
 }
 .example-form {
     display: flex;
