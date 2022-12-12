@@ -9,6 +9,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input'
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { SignupComponent } from './signup/signup.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 const routes: Routes =[
   { path: '', component:LoginComponent},
@@ -19,7 +22,8 @@ const routes: Routes =[
   declarations: [
     AppComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -28,6 +32,10 @@ const routes: Routes =[
     MatFormFieldModule,
     MatCheckboxModule,
     MatInputModule,
+    MatFormFieldModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

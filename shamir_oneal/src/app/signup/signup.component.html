@@ -1,29 +1,38 @@
 <div class="background">
-    <section class="left-bar">
-      <h1>Solicita una nueva cuenta</h1>
-      <p>Ingresa los siguientes datos para entrar</p>
-      <form class="example-form">
-        <mat-form-field class="form-input">
-          <input matInput placeholder="Email" />
-        </mat-form-field>
-        <mat-form-field class="form-input">
-            <input matInput placeholder="Contraseña" />
-          </mat-form-field>
-          <mat-form-field class="form-input">
-            <input matInput placeholder="Confirmar contraseña" />
-          </mat-form-field>
-          <mat-form-field class="form-input">
-            <input matInput placeholder="Codigo de administrador" />
-          </mat-form-field>
-      </form>
-      <button class="form-button" routerLink="/signup">Solicitar</button>
-        <a href="">Olivide mi contraseña</a>
-        <a href="">¿No tienes cuenta? Solicita una</a>
-    </section>
-    <section class="right-bar">
-      <img
-        src="https://images.unsplash.com/photo-1568587080068-58c1b35f1167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80"
-      />
-    </section>
-  </div>
-  
+  <section class="left-bar">
+    <h1>Solicita una nueva cuenta</h1>
+    <p>Ingresa los siguientes datos para entrar</p>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Email" [(ngModel)]="email" />
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Nombre" [(ngModel)]="nombre" />
+      </mat-form-field>
+      <mat-form-field class="form-input"> 
+        <input matInput placeholder="Apellido Paterno" [(ngModel)]="aPaterno" />
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Apellido Materno" [(ngModel)]="aMaterno" />
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Celular" [(ngModel)]="celular" />
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Contraseña" [(ngModel)]="password" />
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Confirmar contraseña" />
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Codigo de administrador" />
+      </mat-form-field>
+    <button class="form-button" routerLink="/signup" (click)="registro()">Solicitar</button>
+    <a href="">Olivide mi contraseña</a>
+    <a href="">¿No tienes cuenta? Solicita una</a>
+  </section>
+  <section class="right-bar">
+    <img
+      src="https://images.unsplash.com/photo-1568587080068-58c1b35f1167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80"
+    />
+  </section>
+</div>
