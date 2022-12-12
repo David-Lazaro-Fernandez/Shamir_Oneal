@@ -10,10 +10,12 @@ import {MatInputModule} from '@angular/material/input'
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { RegisterFilesComponent } from './register-files/register-files.component';
 import { SignupComponent } from './signup/signup.component';
+import { NgxMatFileInputModule } from '@angular-material-components/file-input';
 
 const routes: Routes =[
   { path: '', component:LoginComponent},
-  { path: 'signup', component:SignupComponent}
+  { path: 'signup', component:SignupComponent},
+  {path: 'register_file', component: RegisterFilesComponent}
 ];
 
 @NgModule({
@@ -30,6 +32,7 @@ const routes: Routes =[
     MatFormFieldModule,
     MatCheckboxModule,
     MatInputModule,
+    NgxMatFileInputModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],
