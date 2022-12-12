@@ -11,6 +11,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { RegisterFilesComponent } from './register-files/register-files.component';
 import { SignupComponent } from './signup/signup.component';
 import { NgxMatFileInputModule } from '@angular-material-components/file-input';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 const routes: Routes =[
   { path: '', component:LoginComponent},
@@ -23,7 +26,7 @@ const routes: Routes =[
     AppComponent,
     LoginComponent,
     RegisterFilesComponent,
-    SignupComponent
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,10 @@ const routes: Routes =[
     MatCheckboxModule,
     MatInputModule,
     NgxMatFileInputModule,
+    MatFormFieldModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

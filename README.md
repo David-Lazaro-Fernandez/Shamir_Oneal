@@ -15,7 +15,7 @@ La forma principal en la cual puedes colaborar a este repositorio es realizando 
 ## Vistas 👁
 Puedes encontrar todas las vistas en la siguiente liga de [Figma](https://www.figma.com/file/GPEyXudaicMLDPdt1uz19E/Shamir-O'neal?node-id=1%3A2&t=CpuHUmEP6Wa5uCjW-1)
 ## Dependencias utilizadas en el proyecto
-- Node JS 
-- Angular CLI 
-- SpringBoot 
-
+- [Node JS](https://nodejs.org/en/) 
+- [Angular CLI](https://www.bing.com/search?q=angular+cli&cvid=b0e99da936f1491981d3d6d1e05c648a&aqs=edge.0.0l9.1919j0j4&FORM=ANAB01&PC=U531) 
+- [SpringBoot](https://spring.io/projects/spring-boot) 
+- [Material Design](https://material.angular.io/) 
