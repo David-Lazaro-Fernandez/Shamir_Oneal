@@ -17,10 +17,43 @@ La forma principal en la cual puedes colaborar a este repositorio es realizando 
 Puedes encontrar todas las vistas en la siguiente liga de [Figma](https://www.figma.com/file/GPEyXudaicMLDPdt1uz19E/Shamir-O'neal?node-id=1%3A2&t=CpuHUmEP6Wa5uCjW-1)
 ## Dependencias utilizadas en el proyecto
 - [Node JS](https://nodejs.org/en/) 
+  - *Es el compilador de Javascript que se usa para poder correr cualquier proyecto de Javascript*
 - [Angular CLI](https://www.bing.com/search?q=angular+cli&cvid=b0e99da936f1491981d3d6d1e05c648a&aqs=edge.0.0l9.1919j0j4&FORM=ANAB01&PC=U531) 
-- [SpringBoot](https://spring.io/projects/spring-boot) 
+  - *Es el framework principal que se usara para la aplicación, tiene un formato muy similar al MVC*
 - [Material Design](https://material.angular.io/) 
+  - *Es una libreria de CSS repleta de componentes super lindos y faciles de customizar para la aplicación*   
 
 
-### Notas 📝
+## Notas 📝
 - Muchas de las tareas se encuentran en un Excel dentro del equipo de teams llamado **JAVA**, si tienes una tarea disponible crea un issue para tu tarea.
+
+## Documentación 📄
+
+### Herramientas necesarias para trabajar con el proyecto ⬇
+<table>
+<tr>
+    <td align="center">
+        <a href="https://angular.io/cli">
+            <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" alt="Angular Icon" width="50px"/>
+            <br />
+            <sub><b>Angular CLI</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://material.angular.io/guide/getting-started">
+            <img src="https://play-lh.googleusercontent.com/qhV0NtKrkgNsTSKIjjqFSVkJpTibe5RBcrxb6y5te70EH5VZXGzd5dGUCkHIpHxq94hQ" alt="Material UI Angular Logo" width="50px"/>
+            <br />
+            <sub><b>Angular Material UI</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://docs.passage.id/">
+            <img src="https://user-images.githubusercontent.com/57787993/207778709-35847bd7-1c91-4398-9a74-e77ad803b2b2.png" alt="Passage Logo" width="50px"/>
+            <br />
+            <sub><b>Passage</b></sub>
+        </a>
+    </td>
+  </tr>
+</table>
+
+
