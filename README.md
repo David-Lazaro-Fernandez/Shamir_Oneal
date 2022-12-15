@@ -1,8 +1,9 @@
-# Shamir_Oneal 🏀
+![Frame 5 (2)](https://user-images.githubusercontent.com/57787993/207780975-52e71eb8-20a5-4ae4-8d06-bb7c5cd84d8e.png)
 
-Este repositorio hostea el Front End del proyecto que se esta llevando a cabo en el Servicio Social con Shamir O'neal 🏀
+<div align="center">
+ <b>Este repositorio hostea el Front End del proyecto que se esta llevando a cabo en el Servicio Social con Shamir O'neal 🏀 </b>
+</div>
 
-<img src="https://user-images.githubusercontent.com/57787993/205722607-55022ea5-44fb-4004-8cc0-3180602c3f60.png" />
 
 
 ## ¿Cómo colaborar?
