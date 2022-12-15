@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ClienteService } from '../services/cliente.service';
+import { ClienteService } from '../../services/cliente.service';
 
 @Component({
   selector: 'app-signup',

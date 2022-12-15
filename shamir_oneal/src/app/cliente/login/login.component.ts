@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NativeBiometric } from 'capacitor-native-biometric';
-import { ClienteService } from '../services/cliente.service';
+import { ClienteService } from '../../services/cliente.service';
+import { CapacitorCookies } from '@capacitor/core';
 
 @Component({
   selector: 'app-login',
@@ -13,15 +14,19 @@ export class LoginComponent {
   password : string = ""
 
   constructor(private cliente : ClienteService){
-    
+
   }
 
   login(){
     this.cliente.login(this.email, this.password).subscribe(res=>{
       console.log(res)
+      CapacitorCookies.setCookie({
+        key: 'jwt',
+        value: res.token!,
+      });
     })
   }
-
+ 
 
   async performBiometricVerificatin() {
     const result = await NativeBiometric.isAvailable();

@@ -1,8 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { environment } from '../enviroment/enviroment';
 
 export class LoginResponse{
-  
+  token?: string
+  timeMs?: number
 }
 
 @Injectable({
@@ -12,11 +14,11 @@ export class ClienteService {
 
   constructor(private httpClient: HttpClient) { }
 
-  
+
 
   login(email : string, password : string) {
-    return this.httpClient.post<string>(
-      "http://localhost:8080/api/cliente/login", 
+    return this.httpClient.post<LoginResponse>(
+      environment.serverAddress + "/cliente/login",
       {email : email, password : password}
     )
   }
@@ -24,7 +26,7 @@ export class ClienteService {
   register(email:string, password: string, nombre:string, aPaterno:string, aMaterno:string, celular:string)
   {
     return this.httpClient.post(
-      "http://localhost:8080/api/cliente/nuevo", 
+      environment.serverAddress +"/cliente/nuevo",
       {correo:email, password:password, nombre:nombre, aPaterno:aPaterno, aMaterno:aMaterno, celular:celular}
     )
   }

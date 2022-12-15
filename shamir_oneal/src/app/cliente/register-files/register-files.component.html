@@ -1,0 +1,49 @@
+<div class="background">
+  <section class="left-bar">
+    <img
+      src="https://images.unsplash.com/photo-1562240020-ce31ccb0fa7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    />
+  </section>
+  <section class="right-bar">
+      <h1>Registro de Expedientes</h1>
+      <p>Ingresa los datos necesarios para completar el expediente.</p>
+      <form class="example-form" style="margin-top: 20px;">
+        <p class='label'>Colonia:</p>
+        <mat-form-field>
+        <mat-select>
+          <mat-option *ngFor="let colonia of colonias" value="{{colonia.id}}">{{colonia.nombre}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <p class='label'>Municipio juzgado:</p>
+      <mat-form-field>
+        <mat-select>
+          <mat-option *ngFor="let municipio of municipios" value="{{municipio.id}}">{{municipio.nombre}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <p class='label'>Tipo de caso:</p>
+      <mat-form-field>
+        <mat-select>
+          <mat-option *ngFor="let tcaso of tcasos" value="{{tcaso.id}}">{{tcaso.nombre}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+        <p class='label'>Juzgado:</p>
+        <mat-form-field>
+          <mat-select>
+            <mat-option *ngFor="let juzgado of juzgados" value="{{juzgado.id}}">{{juzgado.nombre}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <p class='label'> Descripcion del caso:</p>
+        <mat-form-field class="form-input">
+          <input matInput placeholder="Descripcion del caso" />
+        </mat-form-field>
+        <p class='label'style="margin-top: 0px; margin-bottom: 5px;">Expediente del juzgado.</p>
+        <mat-form-field>
+          <ngx-mat-file-input>
+          </ngx-mat-file-input>
+       </mat-form-field>
+      </form>
+
+      <button class="form-button" routerLink="/login" style="margin-top: 20px;">Guardar</button>
+    </section>
+
+  </div>
