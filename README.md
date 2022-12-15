@@ -1,6 +1,6 @@
 # Shamir_Oneal 🏀
 
-Sistema de logueo para Shamir
+Este repositorio hostea el Front End del proyecto que se esta llevando a cabo en el Servicio Social con Shamir O'neal 🏀
 
 <img src="https://user-images.githubusercontent.com/57787993/205722607-55022ea5-44fb-4004-8cc0-3180602c3f60.png" />
 
@@ -20,3 +20,7 @@ Puedes encontrar todas las vistas en la siguiente liga de [Figma](https://www.fi
 - [Angular CLI](https://www.bing.com/search?q=angular+cli&cvid=b0e99da936f1491981d3d6d1e05c648a&aqs=edge.0.0l9.1919j0j4&FORM=ANAB01&PC=U531) 
 - [SpringBoot](https://spring.io/projects/spring-boot) 
 - [Material Design](https://material.angular.io/) 
+
+
+### Notas 📝
+- Muchas de las tareas se encuentran en un Excel dentro del equipo de teams llamado **JAVA**, si tienes una tarea disponible crea un issue para tu tarea.
