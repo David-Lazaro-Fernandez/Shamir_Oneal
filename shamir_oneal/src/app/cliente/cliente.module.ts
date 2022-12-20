@@ -13,12 +13,17 @@ import { NgxMatFileInputComponent, NgxMatFileInputModule } from '@angular-materi
 import { CommonModule } from '@angular/common';
 import { MatOptionModule, MatOptionSelectionChange } from '@angular/material/core';
 import {MatSelectModule} from '@angular/material/select';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { CatalogoComponent } from './catalogo/catalogo.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
     LoginComponent,
     SignupComponent,
-    RegisterFilesComponent
+    RegisterFilesComponent,
+    NavigationBarComponent,
+    CatalogoComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +37,8 @@ import {MatSelectModule} from '@angular/material/select';
     MatSelectModule,
     FormsModule,
     HttpClientModule,
-    ClienteRoutingModule
+    ClienteRoutingModule,
+    MatTableModule,
   ]
 })
 export class ClienteModule { }

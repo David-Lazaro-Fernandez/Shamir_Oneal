@@ -10,7 +10,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { NgxMatFileInputModule } from '@angular-material-components/file-input';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
